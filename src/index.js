@@ -1,3 +1,5 @@
+// 1. exercise
+
 // import React from "react"
 // import ReactDOM from "react-dom"
 
@@ -9,19 +11,39 @@
 //   document.getElementById("root")
 // )
 
+// 2. exercise
+
+// import React from "react"
+// import ReactDOM from "react-dom"
+
+// function MyApp() {
+//   return (
+//     <ul>
+//       <li>1</li>
+//       <li>2</li>
+//       <li>3</li>
+//     </ul>
+//   )
+// }
+
+// ReactDOM.render(<MyApp />, document.getElementById("root"))
+
+//Functional components exercise
 import React from "react"
 import ReactDOM from "react-dom"
 
-function MyApp() {
+function MyInfo() {
   return (
-    <ul>
-      <li>1</li>
-      <li>2</li>
-      <li>3</li>
-    </ul>
+    <div>
+      <h1>Hi</h1>
+      <p>I am playing with ReactJS</p>
+      <ul>
+        <li>Paris</li>
+        <li>London</li>
+        <li>Milan</li>
+      </ul>
+    </div>
   )
 }
 
-ReactDOM.render(<MyApp />, document.getElementById("root"))
-
-//Functional components exercise
+ReactDOM.render(<MyInfo />, document.getElementById("root"))
