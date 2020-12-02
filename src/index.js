@@ -23,3 +23,5 @@ function MyApp() {
 }
 
 ReactDOM.render(<MyApp />, document.getElementById("root"))
+
+//Functional components exercise
